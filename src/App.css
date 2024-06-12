@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(16, 32, 33);
+  text-align: center;
+}
+
+menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 1em;
+  padding: 0;
+}
+
+.header_description {
+  margin-inline: 1em;
+}
+
+.core_concept {
+  height: 150px;
+  color: wheat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(255, 153, 0);
+  padding: 2em;
+  text-align: center;
+  width: 200px;
+}
+
+.main_btn {
+  cursor: pointer;
+  background-color: rgb(6, 109, 117);
+  border: none;
+  color: aqua;
+  padding: 0.3em 2em;
+}
+
+.main_btn:hover {
+  background-color: rgb(122, 204, 234);
+  color: black;
+}
+
+.main_buttons_list {
+  list-style-type: none;
+}
+
+.main_title {
+  color: aquamarine;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.tab_buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.dynamic_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.active {
+  cursor: pointer;
+  background-color: rgb(156, 103, 23);
+  border: none;
+  color: aqua;
+  padding: 0.3em 2em;
+}
