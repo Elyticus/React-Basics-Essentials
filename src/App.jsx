@@ -1,7 +1,8 @@
 import "./App.css";
 import Header from "./components/Header/Header";
-import { CORE_CONCEPTS, EXAMPLES } from "./data";
+import Essentials from "./components/Essentials/Essentials";
 import { useState } from "react";
+import { EXAMPLES } from "./data";
 import Core from "./components/Core/Core";
 import ExampleButtons from "./components/ExampleButtons/ExampleButtons";
 
@@ -17,11 +18,7 @@ function App() {
   return (
     <>
       <Header />
-      <menu>
-        {CORE_CONCEPTS.map((concept) => (
-          <Core key={concept.title} {...concept} />
-        ))}
-      </menu>
+      <Essentials />
       <section className="tab_buttons">
         <h2 className="main_title">Examples:</h2>
 
